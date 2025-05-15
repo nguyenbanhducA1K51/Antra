@@ -1,0 +1,14 @@
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/bin/Debug/net8.0/UnderstandingTypes
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/bin/Debug/net8.0/UnderstandingTypes.deps.json
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/bin/Debug/net8.0/UnderstandingTypes.runtimeconfig.json
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/bin/Debug/net8.0/UnderstandingTypes.dll
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/bin/Debug/net8.0/UnderstandingTypes.pdb
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/obj/Debug/net8.0/UnderstandingTypes.GeneratedMSBuildEditorConfig.editorconfig
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/obj/Debug/net8.0/UnderstandingTypes.AssemblyInfoInputs.cache
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/obj/Debug/net8.0/UnderstandingTypes.AssemblyInfo.cs
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/obj/Debug/net8.0/UnderstandingTypes.csproj.CoreCompileInputs.cache
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/obj/Debug/net8.0/UnderstandingTypes.dll
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/obj/Debug/net8.0/refint/UnderstandingTypes.dll
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/obj/Debug/net8.0/UnderstandingTypes.pdb
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/obj/Debug/net8.0/UnderstandingTypes.genruntimeconfig.cache
+/home/ducnguyen/RiderProjects/ConsoleApp1/UnderstandingTypes/obj/Debug/net8.0/ref/UnderstandingTypes.dll

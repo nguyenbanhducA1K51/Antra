@@ -1,0 +1,131 @@
+
+
+01 Introduction to C# and Data Types
+Understanding Data Types
+Test your Knowledge
+
+1. What type would you choose for the following “numbers”?
+A person’s telephone number
+A person’s height
+A person’s age
+A person’s gender (Male, Female, Prefer Not To Answer)
+A person’s salary
+A book’s ISBN
+A book’s price
+A book’s shipping weight
+A country’s population
+The number of stars in the universe
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business)
+
+
+A:
+Telephone Number	string	
+Height	double/float	decimal
+Age	int	byte 
+Gender	enum	string
+Salary	decimal	double 
+ISBN	string	
+Book Price	decimal	
+Shipping Weight	double/float,	decimal 
+Country Population	int	long 
+Stars in Universe	BigInteger	
+Employees per UK SME	int	short 
+
+2. What are the difference between value type and reference type variables? What is
+boxing and unboxing?
+
+A:
+Value Types
+Stored directly in memory .
+Hold the actual data
+
+
+Reference Type:
+Stored in the heap
+Hold the reference to the data
+
+Boxing
+Converting a value type to a reference type.
+Stores the value on the heap 
+
+Unboxing
+Converting a boxed value type back to its original type.
+Requires explicit casting
+
+3. What is meant by the terms managed resource and unmanaged resource in .NET
+
+A:
+Managed resource
+ Resources that are automatically managed by the .NET 
+Garbage Collection : 
+No manual cleanup needed .
+
+Unmanaged resource
+Resources not controlled by the CLR and require manual cleanup.
+File handles .
+Database connections 
+
+4. Whats the purpose of Garbage Collector in .NET?
+
+A.
+garbage collectro automatically manages memory
+ it alllocate space in heap when creating an object
+- reclaim unused memory: unsued object that is not reference anymore 
+- handle manage resource
+
+Controlling Flow and Converting Types
+Test your Knowledge
+
+1.What happens when you divide an int variable by 0
+Dividing an int (or any integral type like byte, short, long) by zero in C# causes a runtime exception:
+
+A:
+System.DivideByZeroException 
+
+2. 
+What happens when you divide a double variable by 0?
+
+A:
+In C#, dividing a double by 0 does not throw an exception. It returns a special IEEE 754 floating-point value like infinity, depending on the operands:
+
+3. What happens when you overflow an int variable, that is, set it to a value beyond its
+range?
+
+A: Overflowing an int (32-bit signed integer) wraps around by default (e.g., int.MaxValue + 1 becomes int.MinValue)
+
+4. What is the difference between x = y++; and x = ++y;?
+A:
+x = y++;	Post-increment: use y, then increment
+Pre-increment: increment y, then use it
+
+5. What is the difference between break, continue, and return when used inside a loop
+statement?
+A:
+break will break the loop
+continue will skip current iteration
+return will return the function.
+
+6.What are the three parts of a for statement and which of them are required?
+A:
+initialization; condition; iteration, all are optional
+
+7. What is the difference between the = and == operators?
+A:
+= mean assign
+== mean compare and return boolean value
+
+8. Does the following statement compile? for ( ; true; ) ;
+
+A:Yes
+
+9:+ What does the underscore _ represent in a switch expression?
+A:
+underscore _ is a discard pattern and acts as a default case, matching any value that wasn’t matched by earlier cases.
+
+
+10: What interface must an object implement to be enumerated over by using the foreach
+statement?
+
+A:
+IEnumerable or IEnumerable<T>
