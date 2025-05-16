@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingTypes_01", "Un
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAndString_02", "ArrayAndString_02\ArrayAndString_02.csproj", "{C508A3A0-CD06-4BA7-8D87-1D4D5D6F247D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-03", "OOP-03\OOP-03.csproj", "{7E29FA28-F7C2-4C8B-BFD2-C8C77DC74200}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C508A3A0-CD06-4BA7-8D87-1D4D5D6F247D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C508A3A0-CD06-4BA7-8D87-1D4D5D6F247D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C508A3A0-CD06-4BA7-8D87-1D4D5D6F247D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E29FA28-F7C2-4C8B-BFD2-C8C77DC74200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E29FA28-F7C2-4C8B-BFD2-C8C77DC74200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E29FA28-F7C2-4C8B-BFD2-C8C77DC74200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E29FA28-F7C2-4C8B-BFD2-C8C77DC74200}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

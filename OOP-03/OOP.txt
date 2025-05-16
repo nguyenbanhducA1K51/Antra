@@ -1,0 +1,87 @@
+1. What are the six combinations of access modifier keywords and what do they do?
+A:
+
+public – Accessible anywhere
+
+private – Accessible only within the containing class
+
+protected – Accessible within the class and derived classes
+
+internal – Accessible within the same assembly
+
+protected internal – Accessible within the assembly or derived classes (even in other assemblies)
+
+private protected – Accessible only within the same assembly and derived classes
+
+2. What is the difference between the static, const, and readonly keywords when applied to a type member?
+A:
+
+static – Belongs to the type (not instance); single shared value.
+
+const – Compile-time constant (must be initialized, cannot change).
+
+readonly – Runtime constant (can be set in constructor, then immutable).
+
+3. What does a constructor do?
+A: Initializes an object when created.
+
+4. Why is the partial keyword useful?
+A: Splits a class/struct/method across multiple files.
+
+5. What is a tuple?
+A: A lightweight data structure holding multiple values
+
+6. What does the C# record keyword do?
+A: Defines an immutable reference type with built-in value-based equality, ToString(), and deconstruction.
+
+7. What does overloading and overriding mean?
+A:
+
+Overloading – Multiple methods with the same name but different parameters.
+
+Overriding – Redefining a base class method in a derived class .
+
+8. What is the difference between a field and a property?
+A:
+
+Field – Direct data storage.
+
+Property – Encapsulates fields with get/set logic (public API).
+
+9. How do you make a method parameter optional?
+A: Use default values:
+
+10. What is an interface and how is it different from an abstract class?
+A:
+
+Interface – Contract (no implementation, multiple inheritance allowed).
+
+Abstract class – Partial implementation, single inheritance.
+
+11. What accessibility level are members of an interface?
+A: All are public.
+
+True/False Questions
+True – Polymorphism allows derived classes to override methods.
+
+True – override provides a new implementation.
+
+True – new hides (not overrides) a base method.
+
+False – Abstract methods can only be in abstract classes.
+
+True – Abstract classes can have concrete methods.
+
+True – Virtual methods can be overridden.
+
+True – Abstract methods must be overridden.
+
+False – Must be virtual or abstract to override.
+
+False – Must implement all interface members.
+
+True – Can have extra members.
+
+False – C# supports single inheritance only.
+
+True – A class can implement multiple interfaces.
